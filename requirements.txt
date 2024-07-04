@@ -56,7 +56,7 @@ pypiwin32==223
 python-dateutil==2.9.0.post0
 pyttsx3==2.90
 pytz==2024.1
-pywin32==306
+pywin32>=301,<307  # Adjust version range based on compatibility
 PyYAML==6.0.1
 regex==2024.5.15
 requests==2.32.3
